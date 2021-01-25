@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/johnli/projects/mkSchedule/consoleOutputs.cpp
+consoleOutputs.h
+/Users/johnli/projects/mkSchedule/consoleOutputs.h
+functional
+-
+vector
+-
+iostream
+-
+sstream
+-
+fstream
+-
+regex
+-
+algorithm
+-
+
+/Users/johnli/projects/mkSchedule/consoleOutputs.h
+functional
+-
+string
+-
+vector
+-
+
+/Users/johnli/projects/mkSchedule/main.cpp
+iostream
+-
+string
+-
+consoleOutputs.h
+/Users/johnli/projects/mkSchedule/consoleOutputs.h
+
